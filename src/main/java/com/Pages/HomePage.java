@@ -22,6 +22,7 @@ public class HomePage {
 	
 	public HomePage(WebDriver Gdriver,HashMap<String, String> GEnvironment, HashMap<String, String> GDictionary,Reporting GReport) {
   
+		
 		Report = GReport;
 		driver = Gdriver ;
 		Dictionary = GDictionary;
