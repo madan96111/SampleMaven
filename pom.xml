@@ -13,6 +13,7 @@
         <configuration>
             <suiteXmlFiles>
                 <suiteXmlFile>testng.xml</suiteXmlFile>
+                <!-- <suiteXmlFile>src/main/resources/testng.xml</suiteXmlFile> -->
             </suiteXmlFiles>
         </configuration>
     </plugin>
@@ -44,7 +45,7 @@
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>6.9.9</version>
-    <scope>test</scope>
+    <scope>compile</scope>
 </dependency>
 
 
